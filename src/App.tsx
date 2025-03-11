@@ -1,15 +1,17 @@
-import { Outlet } from 'react-router-dom';
-import Nav from './components/Nav';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import CandidateSearchPage from './pages/CandidateSearchPage';
+import PotentialCandidatesPage from './pages/PotentialCandidatesPage';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <Nav />
-      <main>
-        <Outlet />
-      </main>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<CandidateSearchPage />} />
+        <Route path="/potential-candidates" element={<PotentialCandidatesPage />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

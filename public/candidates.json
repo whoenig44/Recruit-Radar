@@ -1,0 +1,20 @@
+[
+  {
+    "name": "John Doe",
+    "username": "johndoe",
+    "location": "New York, NY",
+    "avatar": "https://via.placeholder.com/150",
+    "email": "johndoe@example.com",
+    "html_url": "https://github.com/johndoe",
+    "company": "Example Inc."
+  },
+  {
+    "name": "Jane Smith",
+    "username": "janesmith",
+    "location": "San Francisco, CA",
+    "avatar": "https://via.placeholder.com/150",
+    "email": "janesmith@example.com",
+    "html_url": "https://github.com/janesmith",
+    "company": "Example Corp."
+  }
+]
